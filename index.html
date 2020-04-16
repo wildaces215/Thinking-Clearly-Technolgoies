@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Thinking Clearly Landing Page</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css'><link rel="stylesheet" href="./style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="cover tc bg-left bg-center-l avenir animated fadeInLeft slower" style="background-image: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80)">
+    <div class="bg-black-70 pb5 pb6-m pb7-l">
+      <nav class="dt w-100 mw8 center"> 
+        <div class="dtc w2 v-mid pa3">
+          
+        </div>
+        <div class="dtc v-mid tr pa3">
+          <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" onclick="scrollAbout()" href="#about" >About</a> 
+          <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3"  onclick="scrollPortfolio()" href="#portfolio" >Portfolio</a> 
+           
+          <a class="f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" onclick="scrollContact()"href="#contact" >Contact Us</a> 
+        </div>
+      </nav> 
+      <div class="tc-l mt4 mt5-m mt6-l ph3">
+        <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Thinking <b> Clearly</b> Technologies</h1>
+        <h2 class="fw1 f3 white-80 mt3 mb4">Creating business solutions for technological problems!</h2>
+        
+       <br/>
+        <a class="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3" href="">About us</a>
+      </div>
+    </div>
+  </div> 
+<div class="animated fadeInRight slow" id="about">
+  <h1 class="f3 f2-m f1-l fw2 black-90 mv3 avenir tc">
+  <br/>
+    About Us
+  </h1>
+  <h2 class="f5 f4-m f3-l fw2 black-50 mt0 lh-copy tc avenir">
+    We are a technology firm that creates websites, web applications and mobile applications. We focus on meeting and exceeding clients and customers expectations. 
+  </h2>
+  
+
+</div>
+<div id="portfolio">
+<h1 class="f3 f2-m f1-l fw2 black-90 mv3 avenir tc" id="#portfolio">
+  <br/>
+    Portfolio
+    <br/>
+    <br/>
+    Coming Soon!
+  <br/>
+  <br/>
+  </h1>
+
+</div>
+<section class="avenir mw5 mw7-ns w-90 center  pa3 ph5-ns" id="contact">
+  <div class="tc">
+  
+    <h1 class="f4">Contact Us</h1>
+    <hr class="mw3 bb bw1 b--black-10">
+  </div>
+  <form class="pa4 black-80 measure center mv4 w-90">
+    <div class="measure center mv4">
+      <label for="name" class="f6 b db mb2">Name <span class="normal black-60"></span></label>
+      <input id="name" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+  
+    </div>
+    <div class="measure measure center mv4">
+      <label for="name" class="f6 b db mb2">Email</label>
+      <input id="name" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+      <small id="name-desc" class="f6 black-60 db mb2"></small>
+    </div>
+    <div>
+      <label for="comment" class="f6 b db mb2">Message Contents</label>
+      <textarea id="comment" name="comment" class="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+        aria-describedby="comment-desc"></textarea>
+      <small id="comment-desc" class="f6 black-60"></a></small>
+    </div>
+    <br/>
+    <div clas="h3"><a class="f6 link dim br3 ba ph3 pv2 mb2 dib dark-blue" href="#0">Submit!</a></div>
+  </form>
+</section>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
